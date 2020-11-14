@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(10,10,10);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.side_picture{
+    height: 100%;
+    width: 430px;
+    margin-left: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.logo{
+    margin-left: -55px;
+    margin-top: -17px;
+    height: 2px;
+    width: 2px;
+}
+
+.inputWithIcon .search_button{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    color: black;
+    margin-left: 370px;
+    margin-top: -40px;
+}
+
+.inputWithIcon .search_button a:link, a:visited{
+  background-color: white;
+  color: black;
+}
+
+.inputWithIcon .search_button a:active{
+  background: none;
+  color: black;
+}
+
+.grid{
+    height: 100%;
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    right: 0;
+    margin-left: 430px;
+    background: rgb(10,10,10);
+    top: 0px;
+}
+
+.grid2{
+    height: 100%;
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    right: 0;
+    margin-left: 430px;
+    background: rgb(10,10,10);
+    top: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 30px 15px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:rgb(10,10,10);
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-gap: 10px 30px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(10,10,10);
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.grid2 .grid-container2 .grid-item a{
+  color: black;
+}
+
+
+.grid2 .grid-container2 .grid-item:hover{
+  background: white;
+}
+
+.grid2 .grid-container2 .grid-item:active{
+  background-color: white;
+}
+  
+  .grid-item1 {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+  }
+
+  .grid-item2 {
+    background-color: rgba(252, 255, 53, 0.966);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+  }
+
+  .grid-item3 {
+    background-color: rgba(255, 47, 47, 0.945);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+  }
+
+  .grid-item4 {
+    background-color: rgba(97, 253, 83, 0.959);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+  }
+
+  .grid-item1_1 {
+    background: linear-gradient(to bottom, #ffffff 0%, #003366 100%);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 400px;
+  }
+
+  .grid-item2_1 {
+    background: linear-gradient(to bottom, rgba(252, 255, 53, 0.966)0%, rgb(48, 43, 4) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 400px;
+  }
+
+  .grid-item3_1 {
+    background: linear-gradient(to bottom, rgba(255, 47, 47, 0.945), rgb(44, 4, 4) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 400px;
+  }
+
+  .grid-item4_1 {
+    background: linear-gradient(to bottom, rgba(97, 253, 83, 0.959), rgb(10, 36, 4) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    width: 160px;
+    height: 400px;
+  }
+
+.grid-item{
+    background-color:rgb(131, 131, 131);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+
+.grid-item5{
+    background-color:rgb(131, 131, 131);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+
+.inputWithIcon input[type=text] {
+    width: 350px;
+    padding: 12px 40px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+.inputWithIcon{
+    margin-left: 500px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.inputWithIcon i{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(0, 132, 255);
+}
+
+.inputWithIcon p{
+  font-size: 35px;
+  color: white;
+  float: right;
+  margin-right: 15px;
+  margin-top: -40px;
+}
+
+.grid-item5 i{
+    position: absolute;
+    padding: 0px;
+    right: 50px;
+    top: 102px;
+    font-size: 30px;
+}
